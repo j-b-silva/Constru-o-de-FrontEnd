@@ -1,4 +1,4 @@
-# Constru-o-de-FrontEnd
+# construcao-de-frontend
 
 Repositório criado para as aulas teóricas e atividades práticas da disciplina de Construção de Frontend.
 
