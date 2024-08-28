@@ -1,0 +1,8 @@
+header{
+    background-color: black;
+    color:aliceblue;
+    padding: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
