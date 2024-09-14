@@ -1,6 +1,7 @@
 import Icone from "./Icone";
 import InputPesquisar from "./InputPesquisar";
 import Titulo from "./Titulo";
+import "./Cabecalho.css";
 
 function Cabecalho(){
     return(

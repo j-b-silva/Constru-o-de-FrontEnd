@@ -1,3 +1,5 @@
+import "./InputPesquisar.css";
+
 function InputPesquisar(){
     return(
         <>

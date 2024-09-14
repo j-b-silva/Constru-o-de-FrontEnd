@@ -1,4 +1,5 @@
 import Link from "./Link";
+import "./Menu.css";
 
 function Menu(){
     const opcoes = ["Home", "Perfil", "Sair"];
