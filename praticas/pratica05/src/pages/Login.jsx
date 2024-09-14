@@ -6,11 +6,12 @@ import Rodape from "../components/Rodape";
 import Titulo from "../components/Titulo";
 import InputEmail from "../components/InputEmail";
 import InputSenha from "../components/InputSenha";
+import "./Login.css";
 
 function Login(){
     return(
         <>
-            <Conteudo>
+            <Conteudo estilo="login-container">
                 <Icone imagem="" texto="Logo da Aplicação"/>
                 <Titulo texto="Aluno Online"/>
                 <InputEmail />

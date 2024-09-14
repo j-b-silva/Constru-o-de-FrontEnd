@@ -3,6 +3,7 @@ import Cabecalho from "../components/Cabecalho";
 import Menu from "../components/Menu";
 import Secao from "../components/Secao";
 import Painel from "../components/Painel";
+import "./Home.css";
 
 function Home(){
     return(
@@ -13,7 +14,7 @@ function Home(){
             <Conteudo>
                 <Menu />
                 <Secao texto="Página Inicial">
-                    <div>
+                    <div className="card-grid">
                         <Painel texto="Mural de avisos" itens={["Inscrições para Cursos de Extensão",
                         "Evento Maratona de Programação", " Palestra sobre IA"]}/>
                         <Painel texto="Agenda Acadêmica" itens={["Semana de Provas P1",
