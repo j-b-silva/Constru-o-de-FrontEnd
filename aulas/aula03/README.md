@@ -1,3 +1,3 @@
 # React + Vite
 
-Aula 03 Construção de FrontEnd
+Aula 03 - Construção de FrontEnd 
