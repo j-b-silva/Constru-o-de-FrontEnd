@@ -1,3 +1,3 @@
 # React + Vite
 
-Prática Aula 05 Construção de FrontEnd
+Prática Aula 05 - Construção de FrontEnd
