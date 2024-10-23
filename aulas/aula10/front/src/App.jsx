@@ -1,4 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Novo from './pages/Novo';
+import Editar from './pages/Editar';
+import Listar from './pages/Listar';
 
 function App(){
   return<BrowserRouter>
