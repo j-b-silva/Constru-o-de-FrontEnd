@@ -8,9 +8,9 @@ import { criarContato } from '../services/ContatoService';
 function Novo(){
     const [erro, setErro] = useState();
     const navigate = useNavigate();
-    const onSalvar = (data)=>{
-        const resposta = criarContato(data);
-        if(resposta.sucessp){
+    const onSalvar = async (data)=>{
+        const resposta = await criarContato(data);
+        if(resposta.sucesso){
             setErro("");
             navigate("/");
         } else {

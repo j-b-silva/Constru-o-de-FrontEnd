@@ -15,7 +15,7 @@ function criarContato(contato) {
   return axios
     .post(url, contato)
     .then((response) => {return {sucesso: true, dados: response.data}})
-    .catch((error) => {return {sucesso: false, message: error.message}});
+    .catch((error) => {return {sucesso: false, mensagem: error.message}});
 
 }
 
