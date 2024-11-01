@@ -17,8 +17,8 @@ function buscarTodos(){
     });
 };
 
-function buscarUm(){
-    return axios.get(`url/${id}`)
+function buscarUm(id){
+    return axios.get(`${url}/${id}`)
     .then((response)=>{
         return { sucesso: true, dados: response.data };
     }).catch((error)=>{
@@ -36,7 +36,7 @@ function adicionar(contato){
 }
 
 function atualizar(contato){
-    return axios.put(`url/${contato.id}`, {nome: contato.nome, telefone: contato.telefone})
+    return axios.put(`${url}/${contato.id}`, {nome: contato.nome, telefone: contato.telefone})
     .then((response)=>{
         return { sucesso: true, dados: response.data };
     }).catch((error)=>{
@@ -45,7 +45,7 @@ function atualizar(contato){
 }
 
 function remover(id){
-    return axios.delete(`url/${id}`)
+    return axios.delete(`${url}/${id}`)
     .then((response)=>{
         return { sucesso: true, dados: response.data };
     }).catch((error)=>{
@@ -53,4 +53,4 @@ function remover(id){
     })
 }
 
-export default {remover, atualizar, adicionar, buscarUm, buscarTodos}
+export {remover, atualizar, adicionar, buscarUm, buscarTodos};
