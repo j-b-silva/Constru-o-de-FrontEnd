@@ -1,5 +1,9 @@
 {
-    "users": [
-        
-    ]
+  "users": [
+    {
+      "email": "jose@iesb.br",
+      "password": "$2a$10$iSgP82CnNOGNAW22IZPamu6wsm6XmKBpOhNKrk12WNLGb1mLJtElC",
+      "id": 1
+    }
+  ]
 }
