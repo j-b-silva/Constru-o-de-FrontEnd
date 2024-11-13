@@ -4,7 +4,7 @@ import InputSenha from '../components/InputSenha';
 import Botao from '../components/Botao';
 
 function Formulario(props){
-    const{register, handleSubmit, formState: {errors}} = useForm();
+    const{register, handleSubmit, formState: {errors}} = useForm({values: props.valores});
 
     return(
         <>

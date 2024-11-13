@@ -2,8 +2,13 @@
   "users": [
     {
       "email": "jose@iesb.br",
-      "password": "$2a$10$iSgP82CnNOGNAW22IZPamu6wsm6XmKBpOhNKrk12WNLGb1mLJtElC",
+      "password": "$2a$10$2pOA4q3DqB3VtS0wpwoBBO14QngIvE6a1G165xpkS7tvSw0CG6E3K",
       "id": 1
+    },
+    {
+      "email": "oi@com.br",
+      "password": "$2a$10$pXR7JqZ0KRW7yoy1n1onO.jqAUcSRU/UYPWjHLJshIMETImFxBIHS",
+      "id": 2
     }
   ]
 }
